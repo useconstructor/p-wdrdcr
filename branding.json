@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#FEFCF9",
+  "secondaryColor": "#F5EFE7",
+  "backgroundColor": "#FEFCF9",
+  "textColor": "#1A0F08",
+  "accentColor": "#C17A4A",
+  "fontHeading": "Lora",
+  "fontBody": "Inter",
+  "borderRadius": "0.5rem",
+  "logoText": "CoffeeVault",
+  "logoImageUrl": null,
+  "tone": "premium"
+}

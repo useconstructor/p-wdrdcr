@@ -1,10 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-  --color-background: oklch(1 0 0);
-  --color-foreground: oklch(0.145 0 0);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-lora), ui-serif, Georgia, serif;
+  --color-background: #FEFCF9;
+  --color-foreground: #1A0F08;
+  --color-cream: #FEFCF9;
+  --color-paper: #F5EFE7;
+  --color-copper: #C17A4A;
+  --color-espresso: #1A0F08;
+  --color-gold: #8B6F47;
   --color-card: oklch(1 0 0);
   --color-card-foreground: oklch(0.145 0 0);
   --color-primary: oklch(0.205 0 0);
@@ -30,4 +35,11 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+  html { scroll-behavior: smooth; }
+  ::selection { background: #C17A4A; color: #fff; }
+}
+
+@layer utilities {
+  .paper-grain { background-image: radial-gradient(rgba(26,15,8,.055) .65px, transparent .65px); background-size: 6px 6px; }
+  .bean-shape { border-radius: 52% 48% 55% 45% / 60% 54% 46% 40%; transform: rotate(24deg); }
 }
